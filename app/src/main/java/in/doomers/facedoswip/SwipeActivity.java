@@ -61,7 +61,7 @@ public class SwipeActivity extends AppCompatActivity implements FlingCardListene
             String path = file +"";
         Log.i("image", "" + file);
         if (file.exists()){
-       al.add(new Data(path,"random stuff"));
+       al.add(new Data(path,"random stuff+1"));
 
 
 
